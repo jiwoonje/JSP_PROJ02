@@ -16,9 +16,10 @@
 	// 파라미터로 넘어온 값은 모두 String
 	
 	String na = request.getParameter("name");
-	String em = request.getParameter("email");
-	String sub = request.getParameter("subject");
-	String cont = request.getParameter("contents");
+	String age = request.getParameter("age");
+	String wei = request.getParameter("weight");
+	String addr = request.getParameter("addr");
+	String phone = request.getParameter("phone");
 
 %>
 
@@ -32,8 +33,9 @@
 	<!-- 변수에 담긴 값을 출력 -->
 	<h2> 넘어오는 변수 값 출력 </h2>
 	<%= na %><br>
-	<%= em %><br>
-	<%= sub %><br>
-	<%= cont %><br>
+	<%= age %><br>
+	<%= wei %><br>
+	<%= addr %><br>
+	<%= phone %><br>
 </body>
 </html>
